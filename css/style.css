@@ -16,11 +16,18 @@ header{
 
 .bg-white{
     background-color: white;
+    margin:30px;
+    padding: 10px;
+
 }
 
 main{
     width: 70%;
     margin:0 auto;
+}
+
+#blue-bt{
+    background-color: rgb(31, 154, 196);
 }
 
 /* collapsible */
