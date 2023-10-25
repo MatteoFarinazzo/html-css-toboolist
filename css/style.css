@@ -55,9 +55,30 @@ main{
     background-color: rgb(113, 203, 233);
 }
 
+p{
+    margin-top: 20px;
+}
+
 .content{
     padding: 10px;
     margin-left:40px;
+}
+
+.check{
+    color:green;
+    margin-right: 10px;
+}
+
+/* runded colored text*/
+
+.blue-white{
+    font-size: 80%;
+    text-align: center;
+    color:white;
+    background-color: rgb(150, 204, 255);
+    border-radius: 10px;
+
+
 }
 
 /* collapsible */
