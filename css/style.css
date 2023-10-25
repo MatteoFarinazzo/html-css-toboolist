@@ -15,6 +15,7 @@
 header{
     background-color: white;
     height: 70px;
+    box-shadow: 0px 8px 25px 8px lightblue;
     
 }
 
@@ -28,6 +29,10 @@ header{
 main{
     width: 70%;
     margin:0 auto;
+}
+
+.central-shadow{
+    box-shadow: 20px 30px 70px lightblue;
 }
 
 
@@ -50,6 +55,7 @@ main{
     text-decoration: none;
     display: inline-block;
     margin:4px 2px;
+    border:solid 1px;
     border-radius: 5px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -58,10 +64,6 @@ main{
 .square-button:hover {
     background-color: #00a3da;
     color: white;
-  }
-
-p{
-    margin-top: 20px;
 }
 
 .content{
@@ -69,14 +71,22 @@ p{
     margin-left:40px;
 }
 
+.line-height{
+    line-height: 40px;
+}
+
 .check{
     color:green;
     margin-right: 10px;
+    border:solid 1px green;
+    border-radius: 50%;
 }
 
 .cross{
     color:red;
     margin-right: 10px;
+    border:solid 1px red;
+    border-radius:50%;
 }
 
 /* runded colored text*/
