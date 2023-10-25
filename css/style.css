@@ -4,3 +4,16 @@
     padding:0;
     box-sizing: border-box;
 }
+
+#bg-grey{
+    background-color: grey;
+}
+
+header{
+    background-color: white;
+}
+
+
+.bg-white{
+    background-color: white;
+}
