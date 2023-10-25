@@ -10,6 +10,8 @@
     background-color: rgb(216, 216, 216);
 }
 
+/* head*/
+
 header{
     background-color: white;
     height: 70px;
@@ -20,6 +22,8 @@ header{
     margin-top: 10px;
     margin-left: 10px;
 }
+
+/* main */
 
 main{
     width: 70%;
@@ -51,9 +55,10 @@ main{
     cursor: pointer;
 }
 
-.blue-bt{
-    background-color: rgb(113, 203, 233);
-}
+.square-button:hover {
+    background-color: #00a3da;
+    color: white;
+  }
 
 p{
     margin-top: 20px;
@@ -66,6 +71,11 @@ p{
 
 .check{
     color:green;
+    margin-right: 10px;
+}
+
+.cross{
+    color:red;
     margin-right: 10px;
 }
 
