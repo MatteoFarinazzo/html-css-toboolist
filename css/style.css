@@ -161,10 +161,20 @@ p{
     font-size: 15px;
   }
   
-   .collapsible:after {
+ /*  .collapsible:after {
     content: '\25be';
     color: rgb(0, 0, 0);
     font-weight: bold;
     float: left;
     margin-left: 5px;
-  } 
+  } */
+
+
+  .costum-icon-list{
+    list-style: none ;
+}
+
+.costum-icon-list li::before{
+    content: "";
+    display: inline-block;
+}
